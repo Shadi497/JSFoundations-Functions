@@ -8,8 +8,9 @@
  */
 function greet(name) {
   // Your code here
+  console.log("Done")
 }
-
+greet ();
 /**
  * isOdd(n):
  * - receives a number n
