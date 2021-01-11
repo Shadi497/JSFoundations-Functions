@@ -23,12 +23,13 @@ greet ("Shadi");
 function isOdd(n) {
   // Your code here
   if (n%2!==0){
-    console.log("true")
+    return true;
 } else {
-  console.log("false")
+  return false;
 }
 }
-isOdd(7);
+const result = isOdd(14);
+console.log(result)
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -42,14 +43,16 @@ function oddsSmallerThan(n) {
   // Your code here
   let l=n-0;
   if(l%2===0){
-    console.log(l/2)
+    return l/2;
   }
   else{
     //l++;
-    console.log(Math.trunc(l/2))
+    return Math.trunc(l/2);
   }
 }
-oddsSmallerThan(15);
+const ans = oddsSmallerThan(20);;
+console.log(ans)
+
 
 /**
  * squareOrDouble(n):
