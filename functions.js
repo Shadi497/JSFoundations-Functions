@@ -50,7 +50,7 @@ function oddsSmallerThan(n) {
     return Math.trunc(l/2);
   }
 }
-const ans = oddsSmallerThan(20);;
+const ans = oddsSmallerThan(20);
 console.log(ans)
 
 
@@ -67,10 +67,11 @@ console.log(ans)
 function squareOrDouble(n) {
   // Your code here
   if (n%2!==0){
-    console.log(n*n)
+    return n*n;
 } else {
-  console.log(n*2)
+  return n*2;
 }}
-squareOrDouble(9);
+const answer = squareOrDouble(10);
+console.log(answer)
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
